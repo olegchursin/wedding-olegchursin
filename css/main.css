@@ -1,106 +1,574 @@
-body{margin:0;}
-.center{text-align:center;}
-.fb-page-plugin{margin:20px 0 100px;}
-.footer-logo{margin:20px 0;}
-.blue-text{color:#4DD0E1;}
-.mdl-chip{margin-top:20px;background-color:#4DD0E1;}
-.mdl-chip__text{color:#fff;}
-a img{border:0px;}
-a{color:#4DD0E1;font-weight:500;text-decoration:none;}
-::-moz-selection{background-color:#4DD0E1;color:#fff;}
-::selection{background-color:#4DD0E1;color:#fff;}
-.wedding-search-box .mdl-textfield__input{color:rgba(0, 0, 0, 0.87);}
-.wedding-header .mdl-menu__container{z-index:50;margin:0 !important;}
-.mdl-textfield--expandable{width:auto;}
-.wedding-fab{position:absolute;right:20%;bottom:-26px;z-index:3;background:#4DD0E1 !important;color:black !important;}
-.wedding-mobile-title{display:none !important;}
-.wedding-logo-image{height:28px;width:140px;padding-top:3px;}
-.wedding-logo-image-full{height:auto;width:420px;}
-.wedding-header{overflow:visible;background-color:white;}
-.wedding-header .material-icons{color:#767777 !important;}
-.wedding-header .mdl-layout__drawer-button{background:transparent;color:#767777;}
-.wedding-header .mdl-navigation__link{color:#757575;font-weight:700;font-size:14px;}
-.wedding-navigation-container{direction:rtl;-webkit-order:1;-ms-flex-order:1;order:1;width:500px;transition:opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1);}
-.wedding-navigation{direction:ltr;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;width:800px;}
-.wedding-search-box.is-focused + .wedding-navigation-container{opacity:0;width:100px;}
-.wedding-navigation .mdl-navigation__link{display:inline-block;height:60px;line-height:68px;background-color:transparent !important;border-bottom:4px solid transparent;}
-.wedding-navigation .mdl-navigation__link:hover{border-bottom:4px solid #4DD0E1;}
-.wedding-search-box{-webkit-order:2;-ms-flex-order:2;order:2;margin-left:16px;margin-right:16px;}
-.wedding-more-button{-webkit-order:3;-ms-flex-order:3;order:3;}
-.wedding-drawer{border-right:none;}
-.wedding-drawer-separator{height:1px;background-color:#dcdcdc;margin:8px 0;}
-.wedding-drawer .mdl-navigation__link.mdl-navigation__link{font-size:14px;color:#757575;}
-.wedding-drawer span.mdl-navigation__link.mdl-navigation__link{color:#4DD0E1;}
-.wedding-drawer .mdl-layout-title{position:relative;background:#4DD0E1;height:160px;}
-.wedding-drawer .wedding-logo-image{position:absolute;bottom:16px;}
-.wedding-intro-section{position:relative;height:450px;width:auto;background-color:#f3f3f3;background:url('../images/oleg-chursin-wedding-photography-RA-009.jpg') center 30% no-repeat;background-size:cover;}
-.logo-font{font-family:'Roboto', 'Helvetica', 'Arial', sans-serif;line-height:1;color:#767777;font-weight:500;}
-.wedding-slogan{font-size:60px;padding-top:160px;}
-.wedding-sub-slogan{font-size:21px;padding-top:24px;}
-.wedding-create-character{font-size:21px;padding-top:400px;}
-.wedding-create-character a{text-decoration:none;color:#767777;font-weight:300;}
-.wedding-screen-section{position:relative;padding-bottom:80px;}
-.wedding-screens{text-align:right;width:100%;padding-top:80px;white-space:nowrap;overflow-x:auto;}
-.wedding-screen{text-align:center;}
-.wedding-screen .wedding-link{margin-top:16px;display:block;z-index:2;}
-.wedding-image-link{text-decoration:none;}
-.wedding-contact{display:inline-block;width:160px;margin-right:32px;}
-.wedding-contact .wedding-screen-image{width:40%;z-index:1;}
-.wedding-phone{display:inline-block;width:64px;margin-right:48px;}
-.wedding-phone .wedding-screen-image{width:100%;z-index:1;}
-.wedding-tablet{display:inline-block;width:110px;margin-right:64px;}
-.wedding-tablet .wedding-screen-image{width:100%;z-index:1;}
-.wedding-tablet .wedding-link{display:block;z-index:2;}
-.wedding-gallery{display:inline-block;width:300px;margin-right:50px;}
-.wedding-gallery .wedding-screen-image{width:100%;z-index:1;}
-.wedding-auto{display:inline-block;width:300px;overflow:hidden;}
-.wedding-auto .wedding-screen-image{display:block;height:300px;z-index:1;}
-.wedding-contact-section-index{position:relative;background:url('../images/oleg-chursin-wedding-photography-cake.jpg') center top no-repeat;background-size:cover;height:800px;}
-.wedding-contact-section{position:relative;background:url('../images/oleg-chursin-wedding-photography-contact.jpg') center top no-repeat;background-size:cover;height:600px;}
-.wedding-contact-band{position:absolute;bottom:0;width:100%;text-align:center;background-color:#37474f;}
-.wedding-contact-band-text{max-width:800px;margin-left:25%;padding:24px;text-align:left;color:white;}
-.wedding-contact-band-text p{padding-top:8px;}
-.wedding-faq-section{position:relative;height:400px;width:auto;background-color:#f3f3f3;background:url('../images/oleg-chursin-wedding-photography-faq-2.jpg') center 30% no-repeat;background-size:cover;}
-.header-img-jj{position:relative;height:400px;width:auto;background-color:#f3f3f3;background:url('../images/oleg-chursin-wedding-photography-JJ-header.jpg') center 30% no-repeat;background-size:cover;}
-.header-img-mm{position:relative;height:400px;width:auto;background-color:#f3f3f3;background:url('../images/oleg-chursin-wedding-photography-MM-header.jpg') center 30% no-repeat;background-size:cover;}
-.header-img-ra{position:relative;height:400px;width:auto;background-color:#f3f3f3;background:url('../images/oleg-chursin-wedding-photography-RA-header.jpg') center 30% no-repeat;background-size:cover;}
-.header-img-RD{position:relative;height:400px;width:auto;background-color:#f3f3f3;background:url('../images/oleg-chursin-wedding-photography-RD-header.jpg') center 30% no-repeat;background-size:cover;}
-.header-img-TM{position:relative;height:400px;width:auto;background-color:#f3f3f3;background:url('../images/oleg-chursin-wedding-photography-TM-header.jpg') center 30% no-repeat;background-size:cover;}
-.header-img-SM{position:relative;height:400px;width:auto;background-color:#f3f3f3;background:url('../images/oleg-chursin-wedding-photography-SM-header.jpg') center 30% no-repeat;background-size:cover;}
-.gallery-individual{margin:20px 0;}
-.gallery-individual-img{padding:2px 0;width:90%;max-width:800px;}
-.wedding-link{text-decoration:none;color:#4DD0E1 !important;}
-.wedding-link:hover{color:#00ACC1 !important;}
-.wedding-link .material-icons{position:relative;top:-1px;vertical-align:middle;}
-.wedding-alt-link{text-decoration:none;color:#4DD0E1 !important;font-size:16px;}
-.wedding-alt-link:hover{color:#00ACC1 !important;}
-.wedding-alt-link .material-icons{position:relative;top:6px;}
-.wedding-about-section{text-align:center;}
-.wedding-about-section-text{max-width:500px;margin-left:auto;margin-right:auto;padding:60px 16px 0 16px;}
-.wedding-about-section-text p{padding-top:16px;}
-.wedding-about-section-image{background:url('../images/oleg-chursin-wedding-photography-footer.jpg') center top no-repeat;background-size:cover;height:400px;}
-.wedding-more-section{padding:80px 0;max-width:1044px;margin-left:auto;margin-right:auto;}
-.wedding-more-section .wedding-section-title{margin-left:12px;padding-bottom:24px;}
-.wedding-footer{background-color:#fafafa;position:relative;}
-.wedding-footer a:hover{color:#4DD0E1;}
-.wedding-footer .mdl-mega-footer--top-section::after{border-bottom:none;}
-.wedding-footer .mdl-mega-footer--middle-section::after{border-bottom:none;}
-.wedding-footer .mdl-mega-footer--bottom-section{position:relative;}
-.wedding-footer .mdl-mega-footer--bottom-section a{margin-right:2em;}
-.wedding-footer .mdl-mega-footer--right-section a .material-icons{position:relative;top:6px;}
-.wedding-footer--social-icon{width:40px;height:auto;}
-.wedding-link-menu:hover{cursor:pointer;}
-.wedding-text-blue{color:#4DD0E1;}
-@media (max-width:900px){.wedding-navigation-container{display:none;}
-.wedding-title{display:none !important;}
-.wedding-mobile-title{display:block !important;position:absolute;left:calc(50% - 70px);top:12px;transition:opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);}
-.wedding.wedding-search-box.is-focused ~ .wedding-mobile-title,
-.wedding-search-box.is-focused + .wedding-navigation-container + .wedding-mobile-title{opacity:0;}
-.wedding-search-box.is-focused{width:calc(100% - 48px);}
-.wedding-search-box .mdl-textfield__expandable-holder{width:100%;}
-.wedding-create-character{padding-top:200px;font-size:16px;}
-.wedding-create-character img{height:12px;}
-.wedding-fab{display:none;}
-.wedding-contact-band-text{margin-left:0;padding:16px;}
-.wedding-footer .mdl-mega-footer--bottom-section{display:none;}
+body {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.fb-page-plugin {
+    margin: 20px 0 100px;
+}
+
+.footer-logo {
+    margin: 20px 0;
+}
+
+.blue-text {
+    color: #4DD0E1;
+}
+
+.mdl-chip {
+    margin-top: 20px;
+    background-color: #4DD0E1;
+}
+
+.mdl-chip__text {
+    color: #fff;
+}
+
+a img {
+    border: 0px;
+}
+
+a {
+    color: #4DD0E1;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+::-moz-selection {
+    background-color: #4DD0E1;
+    color: #fff;
+}
+
+::selection {
+    background-color: #4DD0E1;
+    color: #fff;
+}
+
+.wedding-search-box .mdl-textfield__input {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.wedding-header .mdl-menu__container {
+    z-index: 50;
+    margin: 0 !important;
+}
+
+.mdl-textfield--expandable {
+    width: auto;
+}
+
+.wedding-fab {
+    position: absolute;
+    right: 20%;
+    bottom: -26px;
+    z-index: 3;
+    background: #4DD0E1 !important;
+    color: black !important;
+}
+
+.wedding-mobile-title {
+    display: none !important;
+}
+
+.wedding-logo-image {
+    height: 28px;
+    width: 140px;
+    padding-top: 3px;
+}
+
+.wedding-logo-image-full {
+    height: auto;
+    width: 420px;
+}
+
+.wedding-header {
+    overflow: visible;
+    background-color: white;
+}
+
+.wedding-header .material-icons {
+    color: #767777 !important;
+}
+
+.wedding-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+}
+
+.wedding-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.wedding-navigation-container {
+    direction: rtl;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 500px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.wedding-navigation {
+    direction: ltr;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 800px;
+}
+
+.wedding-search-box.is-focused + .wedding-navigation-container {
+    opacity: 0;
+    width: 100px;
+}
+
+.wedding-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+}
+
+.wedding-navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #4DD0E1;
+}
+
+.wedding-search-box {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.wedding-more-button {
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+}
+
+.wedding-drawer {
+    border-right: none;
+}
+
+.wedding-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+}
+
+.wedding-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+}
+
+.wedding-drawer span.mdl-navigation__link.mdl-navigation__link {
+    color: #4DD0E1;
+}
+
+.wedding-drawer .mdl-layout-title {
+    position: relative;
+    background: #4DD0E1;
+    height: 160px;
+}
+
+.wedding-drawer .wedding-logo-image {
+    position: absolute;
+    bottom: 16px;
+}
+
+.wedding-intro-section {
+    position: relative;
+    height: 450px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-wedding-photography-RA-009.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.logo-font {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    line-height: 1;
+    color: #767777;
+    font-weight: 500;
+}
+
+.wedding-slogan {
+    font-size: 60px;
+    padding-top: 160px;
+}
+
+.wedding-sub-slogan {
+    font-size: 21px;
+    padding-top: 24px;
+}
+
+.wedding-create-character {
+    font-size: 21px;
+    padding-top: 400px;
+}
+
+.wedding-create-character a {
+    text-decoration: none;
+    color: #767777;
+    font-weight: 300;
+}
+
+.wedding-screen-section {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.wedding-screens {
+    text-align: right;
+    width: 100%;
+    padding-top: 80px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.wedding-screen {
+    text-align: center;
+}
+
+.wedding-screen .wedding-link {
+    margin-top: 16px;
+    display: block;
+    z-index: 2;
+}
+
+.wedding-image-link {
+    text-decoration: none;
+}
+
+.wedding-contact {
+    display: inline-block;
+    width: 160px;
+    margin-right: 32px;
+}
+
+.wedding-contact .wedding-screen-image {
+    width: 40%;
+    z-index: 1;
+}
+
+.wedding-phone {
+    display: inline-block;
+    width: 64px;
+    margin-right: 48px;
+}
+
+.wedding-phone .wedding-screen-image {
+    width: 100%;
+    z-index: 1;
+}
+
+.wedding-tablet {
+    display: inline-block;
+    width: 110px;
+    margin-right: 64px;
+}
+
+.wedding-tablet .wedding-screen-image {
+    width: 100%;
+    z-index: 1;
+}
+
+.wedding-tablet .wedding-link {
+    display: block;
+    z-index: 2;
+}
+
+.wedding-gallery {
+    display: inline-block;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.wedding-gallery .wedding-screen-image {
+    width: 100%;
+    z-index: 1;
+}
+
+.wedding-auto {
+    display: inline-block;
+    width: 300px;
+    overflow: hidden;
+}
+
+.wedding-auto .wedding-screen-image {
+    display: block;
+    height: 300px;
+    z-index: 1;
+}
+
+.wedding-contact-section-index {
+    position: relative;
+    background: url('../images/oleg-chursin-wedding-photography-cake.jpg') center top no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.wedding-contact-section {
+    position: relative;
+    background: url('../images/oleg-chursin-wedding-photography-contact.jpg') center top no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.wedding-contact-band {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #37474f;
+}
+
+.wedding-contact-band-text {
+    max-width: 800px;
+    margin-left: 25%;
+    padding: 24px;
+    text-align: left;
+    color: white;
+}
+
+.wedding-contact-band-text p {
+    padding-top: 8px;
+}
+
+.wedding-faq-section {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-wedding-photography-faq-2.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-jj {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-wedding-photography-JJ-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-mm {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-wedding-photography-MM-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-ra {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-wedding-photography-RA-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-roupalina {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-wedding-photography-roupalina-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+
+.header-img-RD {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-wedding-photography-RD-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-TM {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-wedding-photography-TM-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-SM {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-wedding-photography-SM-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.gallery-individual {
+    margin: 20px 0;
+}
+
+.gallery-individual-img {
+    padding: 2px 0;
+    width: 90%;
+    max-width: 800px;
+}
+
+.wedding-link {
+    text-decoration: none;
+    color: #4DD0E1 !important;
+}
+
+.wedding-link:hover {
+    color: #00ACC1 !important;
+}
+
+.wedding-link .material-icons {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+}
+
+.wedding-alt-link {
+    text-decoration: none;
+    color: #4DD0E1 !important;
+    font-size: 16px;
+}
+
+.wedding-alt-link:hover {
+    color: #00ACC1 !important;
+}
+
+.wedding-alt-link .material-icons {
+    position: relative;
+    top: 6px;
+}
+
+.wedding-about-section {
+    text-align: center;
+}
+
+.wedding-about-section-text {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 16px 0 16px;
+}
+
+.wedding-about-section-text p {
+    padding-top: 16px;
+}
+
+.wedding-about-section-image {
+    background: url('../images/oleg-chursin-wedding-photography-footer.jpg') center top no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.wedding-more-section {
+    padding: 80px 0;
+    max-width: 1044px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wedding-more-section .wedding-section-title {
+    margin-left: 12px;
+    padding-bottom: 24px;
+}
+
+.wedding-footer {
+    background-color: #fafafa;
+    position: relative;
+}
+
+.wedding-footer a:hover {
+    color: #4DD0E1;
+}
+
+.wedding-footer .mdl-mega-footer--top-section::after {
+    border-bottom: none;
+}
+
+.wedding-footer .mdl-mega-footer--middle-section::after {
+    border-bottom: none;
+}
+
+.wedding-footer .mdl-mega-footer--bottom-section {
+    position: relative;
+}
+
+.wedding-footer .mdl-mega-footer--bottom-section a {
+    margin-right: 2em;
+}
+
+.wedding-footer .mdl-mega-footer--right-section a .material-icons {
+    position: relative;
+    top: 6px;
+}
+
+.wedding-footer--social-icon {
+    width: 40px;
+    height: auto;
+}
+
+.wedding-link-menu:hover {
+    cursor: pointer;
+}
+
+.wedding-text-blue {
+    color: #4DD0E1;
+}
+
+@media (max-width:900px) {
+    .wedding-navigation-container {
+        display: none;
+    }
+    .wedding-title {
+        display: none !important;
+    }
+    .wedding-mobile-title {
+        display: block !important;
+        position: absolute;
+        left: calc(50% - 70px);
+        top: 12px;
+        transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .wedding.wedding-search-box.is-focused ~ .wedding-mobile-title,
+    .wedding-search-box.is-focused + .wedding-navigation-container + .wedding-mobile-title {
+        opacity: 0;
+    }
+    .wedding-search-box.is-focused {
+        width: calc(100% - 48px);
+    }
+    .wedding-search-box .mdl-textfield__expandable-holder {
+        width: 100%;
+    }
+    .wedding-create-character {
+        padding-top: 200px;
+        font-size: 16px;
+    }
+    .wedding-create-character img {
+        height: 12px;
+    }
+    .wedding-fab {
+        display: none;
+    }
+    .wedding-contact-band-text {
+        margin-left: 0;
+        padding: 16px;
+    }
+    .wedding-footer .mdl-mega-footer--bottom-section {
+        display: none;
+    }
 }
